@@ -1,0 +1,7 @@
+<button 
+routerLink="/products"
+[queryParams]="{
+    category : item
+}"
+class="btn btn-success" 
+*ngFor="let item of categories">{{item}}</button>
